@@ -79,7 +79,9 @@ The default pattern for BTC has been changed to:
 Example 2
 
 ```dart
-import 'money2.dart';
+import 'package:money2/money2.dart';
+
+// Set the working currency.
 Currency usdCurrency = Currency.create('USD', 2);
 
 // Create money from an int.
